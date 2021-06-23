@@ -1,4 +1,4 @@
-A=imread('img.jpeg');
+A=imread('x.jpeg');
 B=rgb2gray(A);
 C=double(B);
 figure
@@ -20,4 +20,7 @@ for i=1:f
 end
 figure
 imshow(uint8(B));
+S=treshold(uint8(B),150);
+figure
+imshow(S);
 
