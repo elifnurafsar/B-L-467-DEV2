@@ -1,4 +1,4 @@
-A=imread('x.jpeg');
+A=imread('img.jpeg');
 B=rgb2gray(A);
 C=double(B);
 figure
